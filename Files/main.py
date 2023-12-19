@@ -11,7 +11,10 @@ def main():
     SLC_airport=Airport("SLC airport")
     SLC_airport.num_of_terminals(2)
     SLC_airport.list_of_terminals[0].terminal_gates()
+    SLC_airport.list_of_terminals[0].print_terminals_gates()
     SLC_airport.list_of_terminals[1].terminal_gates()
+    SLC_airport.list_of_terminals[1].print_terminals_gates()
+
 
     """Create a GateA1 object and allocate the Gate to a Flight. Pass the instance of the Terminal1 created previously as an argument"""
     GateA1=Gate("A1",SLC_airport.list_of_terminals[0])

@@ -42,6 +42,11 @@ class Terminal:
         self.gates = {f"{gate}{index + 1}": None for gate, num_gates in self.gates_overview.items() for index in range(num_gates)}
 
         return self.gates
+    
+    def print_terminals_gates(self):
+        print(f"The gates available in {self.terminal_name}: ")
+        for gate in self.gates:
+            print(gate)
 
 class Gate:
     """Each Gate in the terminal."""
