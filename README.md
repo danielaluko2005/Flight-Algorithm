@@ -1,2 +1,2 @@
 # Flight-Algorithm
-Use OOP to design a model for Aircraft Flights.
+Use OOP to design a model for Aircraft, Flights and Airports.
